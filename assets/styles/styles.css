@@ -295,6 +295,76 @@ body._lock {
     margin-right: 68px;
 }
 
+/*our things*/
+
+.our-things {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    width: 100%;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    margin-top: 55px;
+}
+
+.our-things-item {
+    width: 350px;
+    height: 350px;
+    background: #FFFFFF;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    margin-right: 30px;
+}
+
+.our-things-item:last-child{
+    margin-right: 0;
+}
+
+.our-things-item p {
+    font-family: alata, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 41px;
+    color: #000000;
+}
+
+.item-img {
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 232px;
+    height: 232px;
+}
+
+.our-things-item:nth-child(1) .item-img {
+    background: url("./../images/things-one.png");
+    background-size: contain;
+}
+
+.our-things-item:nth-child(2) .item-img {
+    background: url("./../images/things-second.png");
+    background-size: contain;
+}
+
+.our-things-item:nth-child(3) .item-img {
+    background: url("./../images/things-third.png");
+    background-size: contain;
+}
+
+
+
 @media (max-width: 1200px) {
     .container {
         max-width: 860px;
@@ -312,7 +382,19 @@ body._lock {
         background-size: cover;
     }
 
+    .our-things-item {
+        width: 315px;
+        height: 315px;
+    }
+
+    .item-img {
+        width: 170px;
+        height: 170px;
+    }
 }
+
+
+
 
 @media (max-width: 880px) {
     .container {
@@ -516,6 +598,27 @@ body._lock {
         width: 196px;
         height: 48px;
     }
+
+    .our-things {
+        flex-direction: column;
+        margin-top: 35px;
+    }
+
+    .our-things-item {
+        width: 290px;
+        height: 290px;
+        margin-bottom: 25px;
+    }
+
+    .item-img {
+        width: 194px;
+        height: 194px;
+    }
+
+    .our-things-item p {
+        font-size: 24px;
+        line-height: 33px;
+    }
 }
 
 @media (max-width: 596px) {
@@ -546,11 +649,18 @@ body._lock {
     }
 
     .presentation-title {
-        font-size: 45px;
+        font-size: 40px;
+        line-height: 60px;
+        text-align: center;
+        color: #FFFFFF;
     }
 
     .presentation-subtitle {
         font-size: 18px;
+    }
+
+    .presentation-info{
+        margin-top: 100px;
     }
 
     .about-description p {
