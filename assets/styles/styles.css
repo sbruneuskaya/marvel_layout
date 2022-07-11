@@ -686,6 +686,9 @@ body._lock {
     color: var(--black);
 }
 
+.form-button {
+    margin-bottom: 88px;
+}
 
 .form-body {
     position: relative;
@@ -902,6 +905,10 @@ body._lock {
         font-size: 14px;
         line-height: 14px;
         letter-spacing: 0.6px;
+    }
+
+    .form-button {
+        margin-bottom: 24px;
     }
 
 }
@@ -1282,10 +1289,6 @@ body._lock {
     .slider .slick-arrow {
         width: 8px;
         height: 23px;
-    }
-
-    .form-button {
-        margin-bottom: 24px;
     }
 
     .form-title {
