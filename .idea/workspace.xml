@@ -2,17 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bf159a3c-f73a-4f49-8e84-2136bf7845d6" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/assets/fonts/Alata-Regular.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/fonts/SofiaProLight.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/fonts/SofiaProRegular.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/fonts/SofiaProSemiBold.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/burger-logo.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/button-yellow.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/header-logo.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/marvel.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/js/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/styles/styles.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/about-img.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/styles/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/styles/styles.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,6 +16,11 @@
     <execution />
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="main" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="2Bn0VchLWIcHUIuSW4X3DHf2LXZ" />
@@ -34,6 +32,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/assets" />
+    <property name="nodejs_package_manager_path" value="npm" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
@@ -52,7 +51,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1657526566773</updated>
-      <workItem from="1657526567921" duration="2744000" />
+      <workItem from="1657526567921" duration="4943000" />
     </task>
     <servers />
   </component>
