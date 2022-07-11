@@ -2,14 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bf159a3c-f73a-4f49-8e84-2136bf7845d6" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/assets/images/arrow-next.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/arrow-prev.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/slider-one.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/slider-second.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/slider-third.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/slider.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/js/script.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/js/slick.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/services-arrow.svg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/styles/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/styles/styles.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
@@ -59,7 +52,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1657526566773</updated>
-      <workItem from="1657526567921" duration="7972000" />
+      <workItem from="1657526567921" duration="11645000" />
     </task>
     <servers />
   </component>
