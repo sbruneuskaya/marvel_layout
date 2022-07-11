@@ -537,6 +537,210 @@ body._lock {
     color: #0B0D21;
 }
 
+/*contact*/
+
+.form-container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-align: end;
+    -ms-flex-align: end;
+    align-items: end;
+}
+
+.form-title-wrapper {
+    width: 100%;
+}
+
+.subtitle {
+    margin-top: 39px;
+    max-width: 554px;
+    font-family: sofia_pro, sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 42px;
+    color: #FFFFFF;
+}
+
+.subtitle span {
+    color: #F6D330;
+    border-bottom: 2px solid #F6D330;
+}
+
+.form-title {
+    font-family: sofia_pro, sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 42px;
+    color: #FFFFFF;
+    max-width: 300px;
+}
+
+.form-wrapper {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+}
+
+.form {
+    max-width: 445px;
+}
+
+.form * {
+    outline: none;
+}
+
+.form-item {
+    margin-top: 15px;
+}
+
+.form-input {
+    padding: 18px 20px 16px;
+    width: 445px;
+    border: none;
+    -webkit-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+}
+
+.form-input:focus {
+    -webkit-box-shadow: 0 0 15px #F6D330;
+    box-shadow: 0 0 15px #F6D330;
+}
+
+
+.form-input._error {
+    -webkit-box-shadow: 0 0 15px red;
+    box-shadow: 0 0 15px red;
+}
+
+
+.form-input::-webkit-input-placeholder {
+    font-family: sofia_pro, sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 14px;
+    letter-spacing: 0.6px;
+    color: #000000;
+}
+
+
+.form-input::-moz-placeholder {
+    font-family: sofia_pro, sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 14px;
+    letter-spacing: 0.6px;
+    color: #000000;
+}
+
+
+.form-input:-ms-input-placeholder {
+    font-family: sofia_pro, sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 14px;
+    letter-spacing: 0.6px;
+    color: #000000;
+}
+
+
+.form-input::-ms-input-placeholder {
+    font-family: sofia_pro, sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 14px;
+    letter-spacing: 0.6px;
+    color: #000000;
+}
+
+
+.form-input::placeholder {
+    font-family: sofia_pro, sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 14px;
+    letter-spacing: 0.6px;
+    color: #000000;
+}
+
+
+.form-body {
+    position: relative;
+}
+
+.form-success {
+    display: none;
+}
+
+.form-body:after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.8);
+    opacity: 0;
+    visibility: hidden;
+}
+
+.form-body._sending:after {
+    opacity: 1;
+    visibility: visible;
+}
+
+.form-body._success .form-container {
+    display: none;
+}
+
+.form-body._success .form-success {
+    display: block;
+}
+
+.form-success {
+    max-width: 417px;
+}
+
+.success-title {
+    font-family: sofia_pro, sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 50px;
+    color: #FFFFFF;
+    margin: 0;
+}
+
+.success-description {
+    font-family: sofia_pro, sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 26px;
+    color: #FFFFFF;
+    margin-top: 49px;
+}
+
+.success-description span {
+    color: #F6D330;
+    border-bottom: 1px solid #F6D330;
+}
+
 
 @media (max-width: 1200px) {
     .container {
@@ -544,7 +748,11 @@ body._lock {
     }
 
     .title{
-        font-size: 80px;
+        font-size: 70px;
+    }
+
+    .button-yellow{
+        width: 200px;
     }
 
     .presentation-title {
@@ -582,6 +790,23 @@ body._lock {
     .services-item-title{
         font-size: 30px;
         max-width: 220px;
+    }
+
+    .subtitle {
+       font-size: 30px;
+    }
+
+    .form-input{
+        width: 335px;
+    }
+
+    .form-title{
+        max-width: 265px;
+        font-size: 35px;
+    }
+
+    .success-title{
+       font-size: 30px;
     }
 }
 
@@ -625,6 +850,46 @@ body._lock {
 
     .about-description {
         margin-top: 30px;
+    }
+
+    .subtitle {
+        font-size: 25px;
+        line-height: 35px;
+        overflow-wrap: anywhere;
+    }
+
+    .form-input {
+        width: 290px;
+    }
+
+    .form-input::-webkit-input-placeholder {
+        font-size: 14px;
+        line-height: 14px;
+        letter-spacing: 0.6px;
+    }
+
+    .form-input::-moz-placeholder {
+        font-size: 14px;
+        line-height: 14px;
+        letter-spacing: 0.6px;
+    }
+
+    .form-input:-ms-input-placeholder {
+        font-size: 14px;
+        line-height: 14px;
+        letter-spacing: 0.6px;
+    }
+
+    .form-input::-ms-input-placeholder {
+        font-size: 14px;
+        line-height: 14px;
+        letter-spacing: 0.6px;
+    }
+
+    .form-input::placeholder {
+        font-size: 14px;
+        line-height: 14px;
+        letter-spacing: 0.6px;
     }
 
 }
@@ -813,7 +1078,7 @@ body._lock {
 @media (max-width: 596px) {
 
     .title {
-        font-size: 70px;
+        font-size: 60px;
     }
 
     .presentation-title {
@@ -864,6 +1129,25 @@ body._lock {
     .services-item-arrow{
         margin-top: 27px;
     }
+
+    .form-wrapper {
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+        flex-direction: column;
+    }
+
+    .form-title {
+        margin-top: 46px;
+        margin-bottom: 23px;
+        font-size: 25px;
+        line-height: 35px;
+        max-width: 100%;
+    }
+
+    .form-success{
+        margin-top: 20px;
+    }
 }
 
 @media (max-width: 590px) {
@@ -900,7 +1184,6 @@ body._lock {
     .beautiful-description {
         margin-bottom: 16px;
     }
-
 
 }
 
@@ -984,5 +1267,15 @@ body._lock {
         height: 23px;
     }
 
+    .form-button{
+        margin-bottom: 24px;
+    }
 
+    .form-title {
+        margin-top: 46px;
+        margin-bottom: 23px;
+        font-size: 25px;
+        line-height: 35px;
+        max-width: 185px;
+    }
 }

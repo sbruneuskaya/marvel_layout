@@ -20,16 +20,16 @@
             <nav class="menu-body">
                 <ul class="menu-list">
                     <li>
-                        <a href="" class="menu-link">About</a>
+                        <a data-goto=".about-section" href="" class="menu-link get-link">About</a>
                     </li>
                     <li>
-                        <a href="" class="menu-link">Services</a>
+                        <a data-goto=".services-section" href="" class="menu-link get-link">Services</a>
                     </li>
                     <li>
-                        <a href="" class="menu-link">Contact</a>
+                        <a data-goto=".contact-section" href="" class="menu-link get-link">Contact</a>
                     </li>
                 </ul>
-                <button class="button-yellow burger-button">CONTACT US <span></span></button>
+                <button data-goto=".contact-section" class="button-yellow burger-button get-link">CONTACT US <span></span></button>
             </nav>
         </div>
     </header>
@@ -45,7 +45,7 @@
                     creation.
                     We offer services to clients in energy, water, manufacturing and transportation sectors.
                 </p>
-                <button class="button-yellow">CONTACT US <span></span></button>
+                <button data-goto=".contact-section" class="button-yellow get-link">CONTACT US <span></span></button>
             </div>
             <div class="presentation-info">Scroll for more</div>
         </div>
@@ -184,6 +184,56 @@
                 creative and immediately responsive to your various working
                 styles, governance requirements and evolving needs.
             </div>
+        </div>
+    </div>
+</div>
+
+<div class="wrapper bg-black contact-section">
+    <div class="container">
+        <div class="box form-wrapper">
+            <div>
+                <p class="title cl-white">Contact</p>
+                <div class="title-border bg-yellow"></div>
+                <p class="subtitle">Email us here: <span>info@marvelpowergroup.com</span></p>
+            </div>
+
+            <div class="form">
+                <form action="#" id="form" class="form-body">
+                    <div class="form-container">
+                        <div class="form-title-wrapper">
+                            <p class="form-title">
+                                Stay in the loop
+                                by getting on
+                                our mailing list
+                            </p>
+                        </div>
+                        <div class="form-item">
+                            <input type="text" id="formName" name="name" class="form-input _req"
+                                   placeholder="NAME *">
+                        </div>
+
+                        <div class="form-item">
+                            <input type="text" id="formEmail" name="email" class="form-input _req _email"
+                                   placeholder="E-MAIL *">
+                        </div>
+                        <button type="submit" class="button-yellow form-button">SEND <span></span></button>
+                    </div>
+
+                    <div class="form-success">
+                        <p class="success-title">
+                            Thank you.
+                        <p class="success-title">Your info has been successfully sent</p>
+                        </p>
+
+                        <p class="success-description">
+                            Your can contact us <span>info@marvelpowergroup.com</span>
+                            if you need additional assistance
+                        </p>
+                    </div>
+                </form>
+            </div>
+
+
         </div>
     </div>
 </div>
